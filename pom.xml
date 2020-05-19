@@ -56,13 +56,16 @@
             <artifactId>junit</artifactId>
             <version>4.13</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
+       <!-- <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
             <version>9.4.27.v20200227</version>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 
